@@ -1,6 +1,6 @@
 const blob = document.getElementById("blob");
 
-document.body.onclick = (event) => {
+document.body.onpointermove = (event) => {
   const { clientX, clientY } = event;
 
   // blob.style.left = `${clientX}px`;
